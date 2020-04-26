@@ -75,6 +75,7 @@ Item
                 }
             }
 
+
             Text {
                 text: sutun1Adi
                 anchors.horizontalCenter: parent.horizontalCenter; anchors.verticalCenter: parent.verticalCenter;
@@ -436,7 +437,7 @@ Item
                     {
                         id: r1
 
-                        Text {
+                        /*Text {
                             id: element; text: veri1;
                             anchors.horizontalCenter: parent.horizontalCenter; anchors.verticalCenter: parent.verticalCenter;
                             font.pixelSize: yaziBoyutu;color: yaziRengi
@@ -445,6 +446,16 @@ Item
                             elide: Text.ElideRight
                             anchors.fill: parent
                             textFormat: Text.PlainText
+                        }*/
+
+                        Image {
+                           id: imageItem
+                           width: parent.width
+                           height: parent.height
+                           anchors.horizontalCenter: parent.horizontalCenter;
+                           anchors.verticalCenter: parent.verticalCenter;
+                           source: veri1
+                           fillMode: Image.Stretch
                         }
 
                         width: sutun1Genislik; height: sutunYukseklik;  anchors.horizontalCenter: parent.horizontalCenter

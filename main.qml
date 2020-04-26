@@ -15,26 +15,26 @@ Window {
     ListModel {
 
         id:elementModel
-        ListElement {colorCode: "lightgrey";  veri1: "1Grey";    veri2: "Grey2"; veri3: "Grey3"; veri4: "Grey4"; veri5: "Grey5"; veri6: "Grey6"; veri7: "Grey7"; veri8: "Grey8"; veri9: "Grey9"; veri10: "Grey10"; }
-        ListElement {colorCode: "lightgrey";  veri1: "2Red";     veri2: "Red2";  veri3: "Red3";  veri4: "Red4";  veri5: "Red5";  veri6: "Red6";  veri7: "Red7";  veri8: "Red8";  veri9: "Red9";  veri10: "Red10";  }
-        ListElement {colorCode: "lightgrey";  veri1: "3Blue";    veri2: "Blue2"; veri3: "Blue3"; veri4: "Blue4"; veri5: "Blue5"; veri6: "Blue6"; veri7: "Blue7"; veri8: "Blue8"; veri9: "Blue9"; veri10: "Blue10"; }
-        ListElement {colorCode: "lightgrey";  veri1: "4Gren";    veri2: "Green2";veri3: "Green3";veri4: "Green4";veri5: "Green5";veri6: "Green6";veri7: "Green7";veri8: "Green8";veri9: "Green9";veri10: "Green10";}
-        ListElement {colorCode: "lightgrey";  veri1: "5Grey";    veri2: "Grey2"; veri3: "Grey3"; veri4: "Grey4"; veri5: "Grey5"; veri6: "Grey6"; veri7: "Grey7"; veri8: "Grey8"; veri9: "Grey9"; veri10: "Grey10"; }
-        ListElement {colorCode: "lightgrey";  veri1: "6Red";     veri2: "Red2";  veri3: "Red3";  veri4: "Red4";  veri5: "Red5";  veri6: "Red6";  veri7: "Red7";  veri8: "Red8";  veri9: "Red9";  veri10: "Red10";  }
-        ListElement {colorCode: "lightgrey";  veri1: "7Blue";    veri2: "Blue2"; veri3: "Blue3"; veri4: "Blue4"; veri5: "Blue5"; veri6: "Blue6"; veri7: "Blue7"; veri8: "Blue8"; veri9: "Blue9"; veri10: "Blue10"; }
-        ListElement {colorCode: "lightgrey";  veri1: "8Green";   veri2: "Green2";veri3: "Green3";veri4: "Green4";veri5: "Green5";veri6: "Green6";veri7: "Green7";veri8: "Green8";veri9: "Green9";veri10: "Green10";}
-        ListElement {colorCode: "lightgrey";  veri1: "9Grey";    veri2: "Grey2"; veri3: "Grey3"; veri4: "Grey4"; veri5: "Grey5"; veri6: "Grey6"; veri7: "Grey7"; veri8: "Grey8"; veri9: "Grey9"; veri10: "Grey10"; }
-        ListElement {colorCode: "lightgrey";  veri1: "10Red";    veri2: "Red2";  veri3: "Red3";  veri4: "Red4";  veri5: "Red5";  veri6: "Red6";  veri7: "Red7";  veri8: "Red8";  veri9: "Red9";  veri10: "Red10";  }
-        ListElement {colorCode: "lightgrey";  veri1: "11Blue";   veri2: "Blue2"; veri3: "Blue3"; veri4: "Blue4"; veri5: "Blue5"; veri6: "Blue6"; veri7: "Blue7"; veri8: "Blue8"; veri9: "Blue9"; veri10: "Blue10"; }
-        ListElement {colorCode: "lightgrey";  veri1: "12Green";  veri2: "Green2";veri3: "Green3";veri4: "Green4";veri5: "Green5";veri6: "Green6";veri7: "Green7";veri8: "Green8";veri9: "Green9";veri10: "Green10";}
-        ListElement {colorCode: "lightgrey";  veri1: "13Grey";   veri2: "Grey2"; veri3: "Grey3"; veri4: "Grey4"; veri5: "Grey5"; veri6: "Grey6"; veri7: "Grey7"; veri8: "Grey8"; veri9: "Grey9"; veri10: "Grey10"; }
-        ListElement {colorCode: "lightgrey";  veri1: "14Red";    veri2: "Red2";  veri3: "Red3";  veri4: "Red4";  veri5: "Red5";  veri6: "Red6";  veri7: "Red7";  veri8: "Red8";  veri9: "Red9";  veri10: "Red10";  }
-        ListElement {colorCode: "lightgrey";  veri1: "15Blue";   veri2: "Blue2"; veri3: "Blue3"; veri4: "Blue4"; veri5: "Blue5"; veri6: "Blue6"; veri7: "Blue7"; veri8: "Blue8"; veri9: "Blue9"; veri10: "Blue10"; }
-        ListElement {colorCode: "lightgrey";  veri1: "16Green";  veri2: "Green2";veri3: "Green3";veri4: "Green4";veri5: "Green5";veri6: "Green6";veri7: "Green7";veri8: "Green8";veri9: "Green9";veri10: "Green10";}
-        ListElement {colorCode: "lightgrey";  veri1: "17Grey";   veri2: "Grey2"; veri3: "Grey3"; veri4: "Grey4"; veri5: "Grey5"; veri6: "Grey6"; veri7: "Grey7"; veri8: "Grey8"; veri9: "Grey9"; veri10: "Grey10"; }
-        ListElement {colorCode: "lightgrey";  veri1: "18Red";    veri2: "Red2";  veri3: "Red3";  veri4: "Red4";  veri5: "Red5";  veri6: "Red6";  veri7: "Red7";  veri8: "Red8";  veri9: "Red9";  veri10: "Red10";  }
-        ListElement {colorCode: "lightgrey";  veri1: "19Blue";   veri2: "Blue2"; veri3: "Blue3"; veri4: "Blue4"; veri5: "Blue5"; veri6: "Blue6"; veri7: "Blue7"; veri8: "Blue8"; veri9: "Blue9"; veri10: "Blue10"; }
-        ListElement {colorCode: "lightgrey";  veri1: "20Green";  veri2: "Green2";veri3: "Green3";veri4: "Green4";veri5: "Green5";veri6: "Green6";veri7: "Green7";veri8: "Green8";veri9: "Green9";veri10: "Green10";}
+        ListElement {colorCode: "lightgrey";  veri1: "qt.png";  veri2: "Grey2"; veri3: "Grey3"; veri4: "Grey4"; veri5: "Grey5"; veri6: "Grey6"; veri7: "Grey7"; veri8: "Grey8"; veri9: "Grey9"; veri10: "Grey10"; }
+        ListElement {colorCode: "lightgrey";  veri1: "qt.png";  veri2: "Red2";  veri3: "Red3";  veri4: "Red4";  veri5: "Red5";  veri6: "Red6";  veri7: "Red7";  veri8: "Red8";  veri9: "Red9";  veri10: "Red10";  }
+        ListElement {colorCode: "lightgrey";  veri1: "qt.png";  veri2: "Blue2"; veri3: "Blue3"; veri4: "Blue4"; veri5: "Blue5"; veri6: "Blue6"; veri7: "Blue7"; veri8: "Blue8"; veri9: "Blue9"; veri10: "Blue10"; }
+        ListElement {colorCode: "lightgrey";  veri1: "qt.png";  veri2: "Green2";veri3: "Green3";veri4: "Green4";veri5: "Green5";veri6: "Green6";veri7: "Green7";veri8: "Green8";veri9: "Green9";veri10: "Green10";}
+        ListElement {colorCode: "lightgrey";  veri1: "qt.png";  veri2: "Grey2"; veri3: "Grey3"; veri4: "Grey4"; veri5: "Grey5"; veri6: "Grey6"; veri7: "Grey7"; veri8: "Grey8"; veri9: "Grey9"; veri10: "Grey10"; }
+        ListElement {colorCode: "lightgrey";  veri1: "qt.png";  veri2: "Red2";  veri3: "Red3";  veri4: "Red4";  veri5: "Red5";  veri6: "Red6";  veri7: "Red7";  veri8: "Red8";  veri9: "Red9";  veri10: "Red10";  }
+        ListElement {colorCode: "lightgrey";  veri1: "qt.png";  veri2: "Blue2"; veri3: "Blue3"; veri4: "Blue4"; veri5: "Blue5"; veri6: "Blue6"; veri7: "Blue7"; veri8: "Blue8"; veri9: "Blue9"; veri10: "Blue10"; }
+        ListElement {colorCode: "lightgrey";  veri1: "qt.png";  veri2: "Green2";veri3: "Green3";veri4: "Green4";veri5: "Green5";veri6: "Green6";veri7: "Green7";veri8: "Green8";veri9: "Green9";veri10: "Green10";}
+        ListElement {colorCode: "lightgrey";  veri1: "qt.png";  veri2: "Grey2"; veri3: "Grey3"; veri4: "Grey4"; veri5: "Grey5"; veri6: "Grey6"; veri7: "Grey7"; veri8: "Grey8"; veri9: "Grey9"; veri10: "Grey10"; }
+        ListElement {colorCode: "lightgrey";  veri1: "qt.png";  veri2: "Red2";  veri3: "Red3";  veri4: "Red4";  veri5: "Red5";  veri6: "Red6";  veri7: "Red7";  veri8: "Red8";  veri9: "Red9";  veri10: "Red10";  }
+        ListElement {colorCode: "lightgrey";  veri1: "qt.png";  veri2: "Blue2"; veri3: "Blue3"; veri4: "Blue4"; veri5: "Blue5"; veri6: "Blue6"; veri7: "Blue7"; veri8: "Blue8"; veri9: "Blue9"; veri10: "Blue10"; }
+        ListElement {colorCode: "lightgrey";  veri1: "qt.png";  veri2: "Green2";veri3: "Green3";veri4: "Green4";veri5: "Green5";veri6: "Green6";veri7: "Green7";veri8: "Green8";veri9: "Green9";veri10: "Green10";}
+        ListElement {colorCode: "lightgrey";  veri1: "qt.png";  veri2: "Grey2"; veri3: "Grey3"; veri4: "Grey4"; veri5: "Grey5"; veri6: "Grey6"; veri7: "Grey7"; veri8: "Grey8"; veri9: "Grey9"; veri10: "Grey10"; }
+        ListElement {colorCode: "lightgrey";  veri1: "qt.png";  veri2: "Red2";  veri3: "Red3";  veri4: "Red4";  veri5: "Red5";  veri6: "Red6";  veri7: "Red7";  veri8: "Red8";  veri9: "Red9";  veri10: "Red10";  }
+        ListElement {colorCode: "lightgrey";  veri1: "qt.png";  veri2: "Blue2"; veri3: "Blue3"; veri4: "Blue4"; veri5: "Blue5"; veri6: "Blue6"; veri7: "Blue7"; veri8: "Blue8"; veri9: "Blue9"; veri10: "Blue10"; }
+        ListElement {colorCode: "lightgrey";  veri1: "qt.png";  veri2: "Green2";veri3: "Green3";veri4: "Green4";veri5: "Green5";veri6: "Green6";veri7: "Green7";veri8: "Green8";veri9: "Green9";veri10: "Green10";}
+        ListElement {colorCode: "lightgrey";  veri1: "qt.png";  veri2: "Grey2"; veri3: "Grey3"; veri4: "Grey4"; veri5: "Grey5"; veri6: "Grey6"; veri7: "Grey7"; veri8: "Grey8"; veri9: "Grey9"; veri10: "Grey10"; }
+        ListElement {colorCode: "lightgrey";  veri1: "qt.png";  veri2: "Red2";  veri3: "Red3";  veri4: "Red4";  veri5: "Red5";  veri6: "Red6";  veri7: "Red7";  veri8: "Red8";  veri9: "Red9";  veri10: "Red10";  }
+        ListElement {colorCode: "lightgrey";  veri1: "qt.png";  veri2: "Blue2"; veri3: "Blue3"; veri4: "Blue4"; veri5: "Blue5"; veri6: "Blue6"; veri7: "Blue7"; veri8: "Blue8"; veri9: "Blue9"; veri10: "Blue10"; }
+        ListElement {colorCode: "lightgrey";  veri1: "qt.png";  veri2: "Green2";veri3: "Green3";veri4: "Green4";veri5: "Green5";veri6: "Green6";veri7: "Green7";veri8: "Green8";veri9: "Green9";veri10: "Green10";}
 
     }
 
@@ -58,7 +58,7 @@ Window {
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.verticalCenter: parent.verticalCenter
             source: "qt.png"
-            fillMode: Image.PreserveAspectFit
+            fillMode: Image.Stretch
 
         }
     }
@@ -99,7 +99,7 @@ Qt is The Qt Company Ltd product developed as an open source project. See qt.io 
         baslikYukseklik: 45
         satirlarArasiBosluk: 1
         sutunlarArasiBosluk: 1
-        sutun1Genislik: 120
+        sutun1Genislik: 40
         sutun2Genislik: 90
         sutun3Genislik: 70
         sutun4Genislik: 70
@@ -109,7 +109,7 @@ Qt is The Qt Company Ltd product developed as an open source project. See qt.io 
         sutun8Genislik: 100
         sutun9Genislik: 80
         sutun10Genislik: 95
-        sutun1Adi: qsTr("Sutun 1")
+        sutun1Adi: qsTr("Ico")
         sutun2Adi: qsTr("Sutun 2")
         sutun3Adi: qsTr("Sutun 3")
         sutun4Adi: qsTr("Sutun 4")

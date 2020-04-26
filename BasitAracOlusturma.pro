@@ -1,4 +1,6 @@
 #Author: İsmail PINAR
+#Date:   26.04.2020
+#info: 	 i.pinar6616@outlook.com
 
 QT += quick virtualkeyboard
 QT += widgets

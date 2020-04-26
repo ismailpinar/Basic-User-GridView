@@ -1,3 +1,5 @@
+#Author: İsmail PINAR
+
 QT += quick virtualkeyboard
 QT += widgets
 

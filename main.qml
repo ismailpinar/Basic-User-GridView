@@ -137,6 +137,53 @@ Qt is The Qt Company Ltd product developed as an open source project. See qt.io 
         veriler: elementModel
 
 
+
+    }
+
+    Button {
+        id: btnSil
+        x: 243
+        y: 617
+        text: qsTr("Sil")
+
+
+
+        onClicked:
+        {
+            if(elementModel.count>0)
+             {
+                elementModel.remove(dataGrid.seciliSatir)
+            }
+
+            if(dataGrid.seciliSatir >= elementModel.count)
+            {
+                dataGrid.seciliSatir = 0
+            }
+        }
+    }
+
+    Button {
+        id: btnEkle
+        x: 376
+        y: 617
+        text: qsTr("Ekle")
+
+        onClicked:
+        {
+            elementModel.insert(0, {colorCode: "yellow",
+                                    veri1: "20Green",
+                                    veri2: "Green2",
+                                    veri3: "Green3",
+                                    veri4: "Green4",
+                                    veri5: "Green5",
+                                    veri6: "Green6",
+                                    veri7: "Green7",
+                                    veri8: "Green8",
+                                    veri9: "Green9",
+                                    veri10: "Green10"}
+)
+        }
+
     }
 
 

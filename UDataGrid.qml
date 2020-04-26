@@ -449,7 +449,8 @@ Item
 
                         width: sutun1Genislik; height: sutunYukseklik;  anchors.horizontalCenter: parent.horizontalCenter
 
-                        color: (seciliSatir === index) ?  "gray" : colorCode
+                        color: (seciliSatir === index || index === -1) ?  "gray" : colorCode
+
 
                         MouseArea
                         {
@@ -499,7 +500,7 @@ Item
                         }
 
                         width: sutun2Genislik; height: sutunYukseklik
-                        color: (seciliSatir === index) ?  "gray" : colorCode
+                        color: (seciliSatir === index || index === -1) ?  "gray" : colorCode
 
                         MouseArea
                         {
@@ -544,7 +545,7 @@ Item
                         }
 
                         width: sutun3Genislik; height: sutunYukseklik
-                        color: (seciliSatir === index) ?  "gray" : colorCode
+                        color: (seciliSatir === index || index === -1) ?  "gray" : colorCode
 
 
                         MouseArea
@@ -589,7 +590,7 @@ Item
                                 textFormat: Text.PlainText
                             }
                         width: sutun4Genislik; height: sutunYukseklik
-                        color: (seciliSatir === index) ?  "gray" : colorCode
+                        color: (seciliSatir === index || index === -1) ?  "gray" : colorCode
 
 
                         MouseArea
@@ -635,7 +636,7 @@ Item
                            }
 
                         width: sutun5Genislik; height: sutunYukseklik
-                        color: (seciliSatir === index) ?  "gray" : colorCode
+                        color: (seciliSatir === index || index === -1) ?  "gray" : colorCode
 
 
                         MouseArea
@@ -679,7 +680,7 @@ Item
                                textFormat: Text.PlainText
                            }
 
-                        color: (seciliSatir === index) ?  "gray" : colorCode
+                        color: (seciliSatir === index || index === -1) ?  "gray" : colorCode
                         width: sutun6Genislik; height: sutunYukseklik
 
                         MouseArea
@@ -724,8 +725,11 @@ Item
                                textFormat: Text.PlainText
                            }
 
-                        color: (seciliSatir === index) ?  "gray" : colorCode
-                         width: sutun7Genislik; height: sutunYukseklik
+
+
+
+                        color: (seciliSatir === index || index === -1) ?  "gray" : colorCode
+                        width: sutun7Genislik; height: sutunYukseklik
 
                         MouseArea
                         {
@@ -737,6 +741,8 @@ Item
                                 secimDegisti = !secimDegisti;
 
                                 element7.text = "505"
+
+
                             }
 
                         }
@@ -770,7 +776,7 @@ Item
                                textFormat: Text.PlainText
                            }
 
-                        color: (seciliSatir === index) ?  "gray" : colorCode
+                        color: (seciliSatir === index || index === -1) ?  "gray" : colorCode
                         width: sutun8Genislik; height: sutunYukseklik
 
                         MouseArea
@@ -816,7 +822,7 @@ Item
                                textFormat: Text.PlainText
                            }
 
-                        color: (seciliSatir === index) ?  "gray" : colorCode
+                        color: (seciliSatir === index || index === -1) ?  "gray" : colorCode
                         width: sutun9Genislik; height: sutunYukseklik
 
                         MouseArea
@@ -862,7 +868,7 @@ Item
                                textFormat: Text.PlainText
                            }
 
-                        color: (seciliSatir === index) ?  "gray" : colorCode
+                        color: (seciliSatir === index || index === -1) ?  "gray" : colorCode
                         width: sutun10Genislik; height: sutunYukseklik
 
                         MouseArea
@@ -892,6 +898,8 @@ Item
 
 
     }
+
+
 
 }
 }

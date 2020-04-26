@@ -147,7 +147,6 @@ Qt is The Qt Company Ltd product developed as an open source project. See qt.io 
         text: qsTr("Sil")
 
 
-
         onClicked:
         {
             if(elementModel.count>0)
